@@ -16,5 +16,5 @@ ethers = { workspace = true }
 crossterm = "0.26"
 eyre = "0.6"
 hex = "0.4"
-revm = { version = "3", features = ["std", "serde"] }
+revm = { git = "https://github.com/yzevm/revm.git", branch = "v3.3.0-and-ethers-v2.0.7", features = ["std", "serde"] }
 tui = { version = "0.19", default-features = false, features = ["crossterm"] }

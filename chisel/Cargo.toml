@@ -50,12 +50,12 @@ clap = { version = "4", features = ["derive", "env", "wrap_help"] }
 rustyline = "11"
 solang-parser.workspace = true
 yansi = "0.5"
-strum = { version = "0.25", features = ["derive"] }
+strum = { version = "0.24.1", features = ["derive"] }
 serde = "1"
 serde_json = { version = "1", features = ["raw_value"] }
 semver = "1"
 bytes = "1"
-revm = "3"
+revm = { git = "https://github.com/yzevm/revm.git", branch = "v3.3.0-and-ethers-v2.0.7" }
 eyre = "0.6"
 dirs = "5"
 time = { version = "0.3", features = ["formatting"] }
